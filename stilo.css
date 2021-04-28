@@ -1,0 +1,111 @@
+
+body {
+    background-color: rgb(167, 167, 167);
+    
+}
+
+h1 {
+    position: absolute;
+width: 240px;
+height: 240px;
+left: 225px;
+top: 40px;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.cont {
+    font-size: 25px;
+}
+
+
+.conteudo {
+position: absolute;
+width: 700px;
+height: 267px;
+left: 550px;
+top: 98px;
+
+
+}
+h3 {
+position: absolute;
+width: 82px;
+height: 82px;
+left: 567px;
+top: 300px;
+}
+p a {
+position: absolute;
+width: 82px;
+height: 82px;
+left: 710px;
+top: 300px;
+}
+h4 {
+position: absolute;
+width: 82px;
+height: 82px;
+left: 852px;
+top: 300px;
+}
+h3, p a, h4 {
+    transition: 500ms;
+}
+
+
+h3:hover, p a:hover, h4:hover{
+ transform: scale(1.1);
+}
+
+.divisao {
+    text-align: center;
+    text-transform: unset;
+    position: absolute;
+    top: 510px;
+    left: 515px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.tec {
+position: absolute;
+left: 110px;
+top: 578px;
+cursor: pointer;
+transition: 500ms;
+
+} 
+.art {
+position: absolute;
+left: 515px;
+top: 578px;
+cursor: pointer;
+transition: 500ms;
+
+}
+
+.form {
+position: absolute;
+left: 916px;
+top: 578px;
+cursor: pointer;
+transition: 500ms;
+
+
+}
+.tec:hover, .art:hover, .form:hover{
+    transform: scale(1.1); 
+    }
+
+footer
+ { 
+position: absolute;
+top: 900px;
+left: 510px;
+
+}
