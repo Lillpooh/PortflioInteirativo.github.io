@@ -1,0 +1,46 @@
+    body {
+    background-color: rgb(167, 167, 167);
+    }
+
+    h1 {
+    position: absolute;
+    width: 200px;
+    height: 192px;
+    left: 385px;
+    top: 105px;
+    }
+
+    .conteudo {
+    position: absolute;
+    width: 510px;
+    height: 438px;
+    left: 645px;
+    top: 135px;
+    }
+
+    h2 {
+    font-size: 48px;
+    }
+
+    p{
+    font-size: 36px;
+    }
+
+    .voltar{
+    position: absolute;
+    left: 460px;
+    top:360px;
+    transition: 500ms;
+    }
+
+    .voltar:hover{
+    transform: scale(1.1);
+    }
+
+    footer{ 
+    position: absolute;
+    top: 620px;
+    left: 540px;}
+    footer p {
+    font-size: 12px;
+    }
