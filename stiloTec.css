@@ -1,0 +1,96 @@
+body {
+background-color: rgb(167, 167, 167);
+font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+position: absolute;
+width: 200px;
+height: 192px;
+left: 264px;
+top: 50px;
+}
+
+.conteudo {
+position: absolute;
+width: 510px;
+height: 438px;
+left: 520px;
+top: 60px;
+}
+
+h2, h3 {
+font-size: 48px;
+}
+
+p{
+font-size: 36px;
+}
+
+.voltar{
+position: absolute;
+left: 340px;
+top:300px;
+transition: 500ms;
+}
+
+.voltar:hover{
+transform: scale(1.1);
+}
+
+.textoSobre {
+font-size: 30px;
+font-weight: bold;
+text-align: left;
+position: absolute;
+width: 600px;
+height:200px;
+left: 450px;
+top: 560px;
+}
+
+.tec2 {
+position: absolute;
+width: 80px;
+height: 80px;
+left: 340px;
+top: 585px;
+transform: scale(1.3);
+}
+
+h4 {
+position: relative;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+top: 800px;
+}
+
+.git {
+max-width:330px;
+max-height:330px;
+width: auto;
+height: auto;
+transition: 500ms;
+}
+
+.gitgit {
+position: relative;
+left: 460px;
+top: 850px;
+}
+
+.git:hover {
+transform: scale(1.1);
+}
+
+footer{ 
+position: absolute;
+height: 30px;
+top:1350px;
+left: 540px;
+}
+
+footer p {
+font-size: 12px;
+}
